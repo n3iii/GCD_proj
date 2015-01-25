@@ -4,7 +4,7 @@ Description of run_analysis.R
 
 <h2>
 Preliminaries:
-</h1>
+</h2>
 <ol>
 <li>When I download and extracted the files in Ubuntu they were flattened into the data subdirectory of my working directory.  So all file access will point to the '/data' subdirectory.
 <li>The library 'dplyr' was needed.
@@ -12,7 +12,7 @@ Preliminaries:
 </ol>
 <h2>
 Steps for creating the tidy data frame.
-</h1>
+</h2>
 Step 0:  Construct the training and the test sets from the various pieces.
 <ol>
 <li>Using read.lines, create a vector from feature names file. This vector is used to name the columns of both training and test data frames.
