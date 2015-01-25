@@ -8,7 +8,7 @@ Preliminaries:
 <ol>
 <li>When I download and extracted the files in Ubuntu they were flattened into the data subdirectory of my working directory.  So all file access will point to the '/data' subdirectory.
 <li>The library 'dplyr' was needed.
-<li>Since in the lectures Jeff often used the '=' instead of the '<-', I will revert to my Pythonic past and join with him.  Also I tend to like single quotes.
+<li>Since in the lectures Jeff often used the '=' instead of the '&lt;-', I will revert to my Pythonic past and join with him.  Also I tend to like single quotes.
 </ol>
 <h2>
 Steps for creating the tidy data frame.
