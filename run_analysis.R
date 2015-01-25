@@ -1,9 +1,8 @@
 ## this is redundate when the script is running but I use it ahead of time to 
 ## make sure I'm in my working directory, before source('run_analysis.R').
-setwd("~/R/GCD")
+#setwd("~/R/GCD")
 
 library(dplyr)
-#library(tidyr)
 
 ## 0. Construct the training and the test sets from the various pieces.
 ##    Each set will be built from their own:
@@ -153,7 +152,7 @@ for (i in 3:(length(wrkVec))) {
 names(endDF1) = wrkVec 
 
 ## hey, let's get a start on the codebook
-write.table(wrkVec, file='CodeBook.md', row.name=FALSE)
+#write.table(wrkVec, file='CodeBook.md', row.name=FALSE)
 
 ## 5. From the data set in step 4, create a second, independent tidy data set 
 ##    with the average of each variable for each activity and each subject.
